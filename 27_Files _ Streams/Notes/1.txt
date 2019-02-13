@@ -1,0 +1,15 @@
+Files and Streams:-
+-----------------
+
+In C++ programming we use the 'iostream' standard library, it provides cin and cout objects for reading from Standard I/P Device and 
+writing to Standard O/P Device respectively.
+
+To read and write from a file the standard C++ library called 'fstream' is used.
+
+The data types defined in 'fstream' library are:
+```````````````````````````````````````````````
+-> ifstream			It is used to read information from files.
+
+-> ofstream			It is used to create files and write information to the files.
+
+-> fstream			It is used to create files, write information to files, and read information from files.

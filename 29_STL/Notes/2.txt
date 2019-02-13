@@ -1,0 +1,46 @@
+Vector:-
+------
+- Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is 
+  inserted or deleted, with their storage being handled automatically by the container. 
+
+- Vector elements are placed in contiguous storage so that they can be accessed and traversed using iterators. 
+
+- In vectors, data is inserted at the end.
+
+
+Syntax for creating a vector is:-  vector< object_type > vector_name;
+
+For example:
+```````````
+1)
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+   vector<int> my_vector;
+
+   return 0;
+}
+
+2)
+#include <vector>
+
+int main()
+{
+   std::vector<string> v = {"Pankaj" , "The" , "Java" ,"Coder"};
+
+   return 0;
+}
+
+
+Functions related to vector:-
+---------------------------
+The push_back( ) member function inserts value at the end of the vector, expanding its size as needed.
+
+The size( ) function displays the size of the vector.
+
+The function begin( ) returns an iterator to the start of the vector.
+
+The function end( ) returns an iterator to the end of the vector.

@@ -1,0 +1,41 @@
+In C++ we have a get pointer and a put pointer for getting (i.e. reading) data from a file and putting(i.e. writing) data on the file respectively.
+
+
+seekg() is used to move the get pointer to a desired location with respect to a reference point.
+
+Syntax:      file_pointer.seekg (number of bytes ,Reference point);
+
+Example:      fin.seekg(10,ios::beg);
+--------------------------------------------------------------------------------------------------
+
+tellg() is used to know where the get pointer is in a file.
+
+Syntax:      file_pointer.tellg();
+
+Example:    int posn = fin.tellg();
+--------------------------------------------------------------------------------------------------
+
+seekp() is used to move the put pointer to a desired location with respect to a reference point.
+
+Syntax:       file_pointer.seekp(number of bytes ,Reference point);
+
+Example:      fout.seekp(10,ios::beg);
+--------------------------------------------------------------------------------------------------
+
+tellp() is used to know where the put pointer is in a file.
+
+Syntax:     file_pointer.tellp();
+
+Example:    int posn=fout.tellp();
+--------------------------------------------------------------------------------------------------
+
+
+The reference points are:
+------------------------
+ios::beg  – from beginning of file
+
+ios::end  – from end of file
+
+ios::cur  – from current position in the file.
+
+Note: In seekg() and seekp() if we put – sign in front of number of bytes then we can move backwards.

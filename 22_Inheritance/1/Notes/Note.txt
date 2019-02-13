@@ -1,0 +1,59 @@
+Inheritance:
+===========
+
+The capability of a class to derive properties and characteristics from another class is called Inheritance.
+
+Inheritance is one of the most important feature of Object Oriented Programming.
+
+The class that inherits properties from another class is called Child class/Sub class/Derived class.
+
+The class whose properties are inherited by a sub class is called Parent class/Super class/Base class.
+
+Syntax:
+------
+class Sub_class_name : visibility_mode  Base_class_name
+{
+  //body of subclass
+};
+
+Note:
+----
+Visibility_mode/Access_mode is the mode in which you want to inherit base class characteristics in sub class, for example: public, protected or private. Default visibility mode is private.
+
+Private member of the base class will never get inherited in the sub class.
+
+On the basis of visibility_mode/access_mode we have the following modes of inheritance:
+
+Modes of Inheritance:
+--------------------
+Public mode:
+```````````
+If we derive a sub class from a public base class. Then the public member of the base class will become public in the derived class and protected members of the base class will become protected in derived class. Private members of the base class will never get inherited in sub class.
+
+Protected mode:
+``````````````
+If we derive a sub class from a Protected base class. Then both public member and protected members of the base class will become protected in derived class. Private members of the base class will never get inherited in sub class.
+
+Private mode:
+````````````
+If we derive a sub class from a Private base class. Then both public member and protected members of the base class will become Private in derived class. Private members of the base class will never get inherited in sub class.
+
+Example:
+-------
+class Parent
+{
+	// body of class
+};
+
+class Child : public Parent
+{
+	// body of class
+};
+
+Types of Inheritance:
+--------------------
+1. Single Inheritance
+2. Multilevel Inheritance
+3. Hierarchical Inheritance
+4. Multiple Inheritance
+5. Hybrid Inheritance

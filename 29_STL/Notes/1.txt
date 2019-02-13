@@ -1,0 +1,29 @@
+Introduction to STL:- (Standard Template Library)
+-------------------
+STL is an acronym for Standard Template Library. It is a set of C++ template classes that provide generic classes and function that can be used to implement data structures and algorithms.
+
+STL is mainly composed of:-
+-------------------------
+1) Containers
+2) Algorithms
+3) Iterators
+
+1) Containers:-
+-------------
+Containers are used to manage collections of objects of a certain kind. 
+
+There are several different types of containers:-
+- vector
+- queue
+- stack
+- list
+- set
+- map
+
+2) Algorithms:-
+-------------
+Algorithms act on containers. They provide the means by which you will perform initialization, sorting, searching, and transforming of the contents of containers.
+
+3) Iterators:-
+------------
+Iterators are used to point to the containers in STL. They actually acts as a bridge between containers and algorithms, means, due to iterators it is possible for an algorithm to manipulate different types of containers/data structures.

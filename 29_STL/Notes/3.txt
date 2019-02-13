@@ -1,0 +1,22 @@
+Defining an iterator:-
+--------------------
+
+syntax:-  container_type <parameter_list>::iterator iterator_name;
+
+For example:
+```````````
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+   // create an iterator named i to a vector of integers
+   vector<int>::iterator i;
+
+   // create an iterator named j to a vector of strings
+   vector<string>::iterator j;
+
+   return 0;
+}

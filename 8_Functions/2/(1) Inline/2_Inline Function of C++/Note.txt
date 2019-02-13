@@ -1,0 +1,17 @@
+Inline function:
+---------------
+
+'inline' is a keyword. If a function is defined as inline then during compilation all the function call statements will be replaced by function definition code. It will remove the function from our code. Now, there will be no jump from function call to function definition and, this will result in fast execution of the program. But, it also increases the program size.
+
+'inline' is just a request to the compiler and the compiler may cancel our request in following cases:-
+1. If the function is too large.
+2. If the function is too complex.
+3. If the function contains either:
+	- a loop statement
+	- a switch statement
+	- a static variable
+	- a goto, return or any other jump statement
+
+Different compilers may assume different rules.
+
+If we define a function as inline even if it contains a loop or a switch then, the compiler will give a warning not an error "Function containing loop is not expanded as inline".

@@ -1,0 +1,15 @@
+Operators that cannot be overloaded:
+-----------------------------------
+
+.		Membership operator
+.*		Pointer-to-member operator
+::		Scope resolution operator
+?:		Conditional operator
+
+
+Operators where a friend function cannot be used:
+------------------------------------------------
+=		Assignment operator
+()		Function call operator
+[]		Subscripting operator
+->		Class member access operator

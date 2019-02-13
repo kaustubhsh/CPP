@@ -1,0 +1,13 @@
+Standard output stream:(cout)
+----------------------
+The cout is a predefined object of ostream class. It is connected with the standard output device, which is usually a display screen. The cout is used in conjunction with stream insertion operator(<<) to display the output on a console.
+
+
+Standard input stream:(cin)
+---------------------
+The cin is a predefined object of istream class. It is connected with the standard input device, which is usually a keyboard. The cin is used in conjunction with stream extraction operator(>>) to read the input from a console.
+
+
+Standard end line:(endl)
+-----------------
+The endl is a predefined object of ostream class. It is used to insert a new line character and flushes the stream.

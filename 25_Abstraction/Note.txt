@@ -1,0 +1,4 @@
+Abstraction:
+-----------
+
+Abstraction refers to the act of displaying only essential information and hiding the main implementation(details).

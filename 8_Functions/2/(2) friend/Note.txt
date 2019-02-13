@@ -1,0 +1,6 @@
+One of the important concepts of OOP is data hiding, i.e., a nonmember function cannot access an object's private or protected data.
+
+But, sometimes this restriction may force programmer to write long and complex codes. So, there is mechanism built in C++ programming 
+to access private or protected data from non-member functions.
+
+This is done using a friend function or/and a friend class.
